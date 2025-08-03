@@ -31,4 +31,6 @@ Type these in on the search bar                     and then set to the value
 | Live Preview: Open Preview Target         | External Browser                         |
 +-------------------------------------------+------------------------------------------+
 
-5. Follow the tutorial to get acquanted with the software https://code.visualstudio.com/docs/getstarted/getting-started
+5. Follow the article to get acquanted with the software https://www.codecademy.com/article/building-projects-with-vs-code
+
+Optionally you can follow: https://code.visualstudio.com/docs/getstarted/getting-started

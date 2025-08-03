@@ -1,0 +1,52 @@
+Session 2-4 Pop Quiz
+
+1. What are the three essential parts of an HTML element?
+
+2. Fill in the blank: The _______ declaration must be the first line in an HTML5 document.
+
+3. Which of the following is a self-closing element?
+   a) <div>
+   b) <p>
+   c) <img>
+   d) <span>
+
+4. What does the Emmet abbreviation "img" generate?
+
+5. Fill in the blank: The _______ element contains metadata about the HTML document.
+
+6. Which semantic HTML element should be used for the main navigation of a website?
+   a) <div>
+   b) <nav>
+   c) <section>
+   d) <header>
+
+7. What is the difference between block-level and inline elements?
+
+8. Fill in the blank: The _______ element represents the main content of the document body.
+
+9. Which of the following elements is an inline element?
+   a) <div>
+   b) <p>
+   c) <h1>
+   d) <span>
+
+10. What is the purpose of using semantic HTML elements instead of generic <div> elements?
+
+11. Fill in the blank: Heading elements should follow a logical _______ from <h1> to <h6>.
+
+12. Which element is used to mark text as having strong importance?
+    a) <b>
+    b) <strong>
+    c) <bold>
+    d) <important>
+
+13. What does MDN stand for?
+
+14. Fill in the blank: The _______ element is used to create a thematic break between paragraph-level elements.
+
+15. Which semantic element should contain the copyright information at the bottom of a page?
+    a) <bottom>
+    b) <footer>
+    c) <end>
+    d) <copyright>
+
