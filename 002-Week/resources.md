@@ -9,6 +9,7 @@ https://www.codecademy.com/resources/docs/css
 https://developer.chrome.com/docs/devtools/elements
 https://developer.chrome.com/docs/devtools/css
 https://developer.chrome.com/docs/devtools/css-overview
+https://learn.shayhowe.com/advanced-html-css/complex-selectors/
 
 ## CheatSheets
 
