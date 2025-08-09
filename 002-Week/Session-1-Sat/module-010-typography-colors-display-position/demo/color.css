@@ -1,0 +1,21 @@
+.named{
+    /* there are only so many names to give to colors */
+    color: red;
+}
+
+.hex{
+    /* specific color out of 16 million */
+    /* base 16 */
+    /* each character between 1-16 */
+    /* 0-9, a-f */
+    color: #73b4ce;
+}
+
+.rgb{
+    color: rgba(174, 214, 13, 0.912)
+}
+
+.hsl {
+    background-color: hsl(253, 49%, 41%);
+}
+

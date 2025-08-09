@@ -1,0 +1,30 @@
+.box {
+    /* border around padding and content */
+    border: 5px solid black;
+    text-align: center;
+    /* space between border and content */
+    padding:50px;
+    /* space between sibling elements */
+    margin: 20px;
+    /* round the corners on an element */
+    border-radius: 20px;
+}
+
+.box-longhand {
+    /* border around padding and content */
+    border: 5px solid black;
+    text-align: center;
+    /* space between border and content */
+    padding-left: 50px;
+    padding-right: 50px;
+    /* space between sibling elements */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.border-longhand{
+    border-style: dotted;
+    border-color: blue;
+    border-width: 5px;
+}
+

@@ -1,0 +1,25 @@
+span {
+  color: red;
+  /*inline doesn't respect width */
+  width: 300px;
+}
+
+.has-width {
+  width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.not-even-there {
+  /* doesn't affect the layout of the page - nothing rendered */
+  display: none;
+  padding: 50px;
+}
+
+.invisible {
+  /* still takes up space but not visible */
+  visibility: hidden;
+  padding: 50px;
+}

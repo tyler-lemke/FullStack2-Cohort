@@ -8,6 +8,11 @@
    - Set padding to 20px
 */
 
+body {
+   background-color: #e3d4d4;
+   padding:20px;
+}
+
 /* ===========================================
    TODO 2: COLOR PROPERTIES
    Practice different ways to set colors

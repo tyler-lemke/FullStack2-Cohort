@@ -1,0 +1,38 @@
+/* use the default box sizing */
+
+/* 402px wide is the actual size */
+#custom-width-content {
+  text-align: center;
+  border: 1px solid black;
+  padding: 50px;
+  width: 300px;
+  /* this is defaulted but showing it here */
+  box-sizing: content-box;
+  height: 50px;
+}
+
+/* want this element to be exactly 300px in width */
+#custom-width-fixed-content {
+  text-align: center;
+  /* add our border left and right and padding left and right values */
+  border: 1px solid black;
+  /* border add 2px  */
+  padding: 50px;
+  /* border add 100px */
+
+  /* so we take the width we want */
+  /* subtract the border and the padding */
+  /* 300-102 */
+  width: 198px;
+}
+
+/* box-sizing can change to border-box */
+/* math free - worry free way to get specific widths */
+#custom-width-border-box {
+  width: 300px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 50px;
+  height: 50px;
+  box-sizing: border-box;
+}

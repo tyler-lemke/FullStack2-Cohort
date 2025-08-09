@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="display.css" />
+  </head>
+  <body>
+    <h1>Block - Inline - Inline Block</h1>
+    <h2>Block</h2>
+    <!-- default to block -->
+    <div>stack 1</div>
+    <div>stack 2</div>
+    <h2>Inline</h2>
+    <p>text starts here <span>inline with the rest of the text</span></p>
+    <h2>Inline block</h2>
+    <!-- combines both inline and block -->
+    <!-- we get the advantage of having width -->
+    <!-- but elements also go next to each other -->
+    <div>
+      <div class="inline-block has-width">Inline-Block 1</div>
+      <div class="inline-block has-width">Inline-Block 2</div>
+      <div class="inline-block has-width">Inline-Block 3</div>
+    </div>
+
+    <h1>Hiding Stuff</h1>
+    <!-- not there -->
+    <h2>display none</h2>
+    <p class="not-even-there">This wont show up</p>
+
+    <!-- hidden -->
+    <h2>visibility hidden</h2>
+    <p class="invisible">You cant see this but its taking up some space</p>
+
+    <div>This is the bottom of the page</div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  font-size: 20px;
+}
+
+.font-family {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size {
+  font-size: 20px;
+}
+
+.font-weight {
+  font-weight: bolder;
+}
+
+.font-style {
+  font-style: italic;
+}
+
+.font-shorthand {
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/font */
+  font: 6px "Fira Sans", sans-serif;
+}
+
+.pixels {
+  font-size: 25px;
+}
+
+/* we will go over how these work in more detail during media queries and responsiveness */
+.em {
+  font-size: 2.5em;
+}
+
+.rem {
+  font-size: 2.5rem;
+}
+
+.text-appearance {
+  line-height: 25px;
+  letter-spacing: 5px;
+  text-align: end;
+}

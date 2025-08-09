@@ -1,0 +1,49 @@
+/* 
+selector {
+    property: value;
+} 
+*/
+
+/* rule/ruleset for h1 */
+
+h1 {
+    color: rebeccapurple;
+    background-color: aqua;
+}
+
+/* rule/ruleset for h2 */
+
+p {
+    color: gold;
+    font-size: 20px;
+}
+
+.aside {
+    color: red;
+}
+
+#special{
+    color: blue;
+    padding: 50px;
+    /* shorthand properties 
+    have multiple values and
+    represent setting multiple properties at once
+    */
+    border: 1px solid black;
+}
+
+/* specificity */
+/* the more targeted or specific
+ our selector is, the more it overrides
+ other selectors
+*/
+
+/*  > is the direct child of the selector before it 
+ I want to target an direct child paragraph tag of
+ div
+*/
+div > p {
+    font-size: 50px;
+}
+
+
