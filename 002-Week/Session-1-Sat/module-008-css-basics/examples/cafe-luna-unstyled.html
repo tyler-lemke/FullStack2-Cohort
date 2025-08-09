@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Luna Menu</title>
+    <style>
+        .toggle-bar {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #8B4513;
+            padding: 10px 15px;
+            border-radius: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+        }
+        .toggle-bar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        .toggle-bar .current {
+            background: rgba(255,255,255,0.3);
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Café Luna</h1>
+        <p>Fresh Coffee • Artisan Pastries • Cozy Atmosphere</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Coffee Specialties</h2>
+            <div>
+                <h3>Luna Latte</h3>
+                <p>Rich espresso with steamed milk and our signature vanilla blend</p>
+                <span>$4.50</span>
+            </div>
+            <div>
+                <h3>Cappuccino Classic</h3>
+                <p>Perfect balance of espresso, steamed milk, and foam</p>
+                <span>$4.25</span>
+            </div>
+            <div>
+                <h3>Mocha Supreme</h3>
+                <p>Dark chocolate and espresso topped with whipped cream</p>
+                <span>$5.25</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Fresh Pastries</h2>
+            <div>
+                <h3>Croissant Delight</h3>
+                <p>Buttery, flaky pastry baked fresh daily</p>
+                <span>$3.00</span>
+            </div>
+            <div>
+                <h3>Blueberry Muffin</h3>
+                <p>Packed with fresh blueberries and a hint of lemon</p>
+                <span>$2.75</span>
+            </div>
+            <div>
+                <h3>Chocolate Croissant</h3>
+                <p>Traditional French pastry with rich dark chocolate</p>
+                <span>$3.50</span>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Open Daily: 6:00 AM - 8:00 PM</p>
+        <p>123 Coffee Street, Downtown | (555) 123-CAFE</p>
+    </footer>
+    <div class="toggle-bar">
+        <span class="current">Unstyled</span>
+        <a href="cafe-luna-styled.html">Styled</a>
+    </div>
+</body>
+</html>

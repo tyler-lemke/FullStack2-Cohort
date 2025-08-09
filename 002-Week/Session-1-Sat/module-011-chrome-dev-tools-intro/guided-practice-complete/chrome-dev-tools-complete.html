@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevTools Detective Challenge - COMPLETED VERSION</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="header-content">
+        <h1 class="site-title">CSS Detective Agency</h1>
+      </div>
+    </header>
+
+    <main class="content">
+      <section class="hero">
+        <h2 class="hero-title">Welcome Detective!</h2>
+        <p class="hero-description">
+          Use your DevTools to solve these CSS mysteries. Each section below has
+          intentional bugs that need fixing.
+        </p>
+        <button class="cta-button">Start Investigation</button>
+      </section>
+
+      <section class="tools-section">
+        <h3>Your DevTools Arsenal</h3>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <h4>Elements Inspector</h4>
+            <p>
+              Right-click any element and select 'Inspect' to examine its HTML
+              and CSS.
+            </p>
+          </div>
+          <div class="tool-card">
+            <h4>Styles Panel</h4>
+            <p>
+              See all CSS rules applied to an element, including overrides and
+              computed values.
+            </p>
+          </div>
+          <div class="tool-card">
+            <h4>Box Model Diagram</h4>
+            <p>
+              Visualize margins, borders, padding, and content areas of any
+              element.
+            </p>
+          </div>
+          <div class="tool-card">
+            <h4>Copy Selector</h4>
+            <p>
+              Right-click an element in DevTools and select 'Copy selector' to get
+              the exact CSS selector for that element.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="instructions">
+        <h3>Investigation Instructions</h3>
+        <div class="instruction-steps">
+          <ol>
+            <li>Right-click on problem areas and select "Inspect"</li>
+            <li>Look for crossed-out CSS rules (overridden styles)</li>
+            <li>Check the computed styles tab for final values</li>
+            <li>Use the box model diagram to understand spacing</li>
+            <li>Toggle CSS properties on/off to isolate issues</li>
+            <li>Modify values directly in DevTools to test fixes</li>
+            <li>Copy working solutions from DevTools to your CSS file</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="case-files">
+        <h3>Active Cases</h3>
+
+        <div class="case-card">
+          <h4>Case #0: The Tiny Text Mystery</h4>
+          <p>
+            This text is so small it's almost impossible to read! Find it and
+            make it bigger so everyone can see it clearly.
+          </p>
+          <div class="tiny-text">
+            Can you see this microscopic message? It contains vital clues!
+          </div>
+        </div>
+
+        <div class="case-card" id="case-1">
+          <h4>Case #1: The Invisible Button</h4>
+          <p>
+            A critical button has gone missing! It's there in the HTML, but
+            users can't see it.
+          </p>
+          <button class="invisible-button">Find Me!</button>
+        </div>
+
+        <div class="case-card" id="case-2">
+          <h4>Case #2: The Width Mystery</h4>
+          <p>
+            This container should only be 300px wide, but it's taking up the full width of its parent.
+          </p>
+          <div class="width-container">
+            <div class="width-box">I should be 300px wide!</div>
+          </div>
+        </div>
+
+        <div class="case-card" id="case-3">
+          <h4>Case #3: The Spacing Anomaly</h4>
+          <p>
+            This content box should have proper spacing, but the text is
+            cramped.
+          </p>
+          <div class="cramped-content">
+            <h5>Investigation Notes</h5>
+            <p>
+              The spacing in this box is all wrong. The text is too close to the
+              edges and the elements are squished together. Use DevTools to
+              identify what's missing!
+            </p>
+          </div>
+        </div>
+
+        <div class="case-card" id="case-4">
+          <h4>Case #4: The Color Conspiracy</h4>
+          <p>The text in this alert box should be visible, but it's not!</p>
+          <div class="alert-box">
+            <strong>URGENT:</strong> This message contains crucial information
+            but can't be read!
+          </div>
+        </div>
+
+        <div class="case-card" id="case-5">
+          <h4>Case #5: The Broken Navigation</h4>
+          <p>
+            The navigation links should change color on hover, but something's wrong.
+          </p>
+          <div class="broken-nav">
+            <a href="#case-1" class="broken-link">Case #1</a>
+            <a href="#case-2" class="broken-link">Case #2</a>
+            <a href="#case-3" class="broken-link">Case #3</a>
+          </div>
+          <p><em>Hint: How can you force hover in the styles section?</em></p>
+        </div>
+      </section>
+
+    </main>
+
+      <section class="stretch-goals">
+        <h3>Stretch Goals</h3>
+        <div class="goals-grid">
+          <div class="goal-card">
+            <h4>Create Your Own Bug</h4>
+            <p>Add your own CSS bug and challenge a classmate to find it using DevTools.</p>
+          </div>
+          <div class="goal-card">
+            <h4>Mobile Testing</h4>
+            <p>Use the mobile device simulator to test responsive behavior across different screen sizes.</p>
+          </div>
+          <div class="goal-card">
+            <h4>Live Experimentation</h4>
+            <p>Experiment with different CSS values directly in DevTools to see real-time changes.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Solve crimes with DevTools!</p>
+    </footer>
+  </body>
+</html>

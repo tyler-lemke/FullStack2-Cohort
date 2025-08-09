@@ -1,0 +1,130 @@
+/* Café Luna Menu Styles - Complete Version */
+
+/* Body and General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Main Title with ID Selector */
+#main-title {
+    color: #2c3e50;
+    font-size: 3em;
+    text-align: center;
+    margin: 0 0 10px 0;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Section Headings */
+h2 {
+    color: #e74c3c;
+    font-size: 1.8em;
+    border-bottom: 3px solid #e74c3c;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Menu Item Headings */
+h3 {
+    color: #2c3e50;
+    margin: 0 0 8px 0;
+    font-size: 1.3em;
+}
+
+/* Tagline Class */
+.tagline {
+    text-align: center;
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Menu Section Styling */
+.menu-section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Menu Items */
+.menu-item {
+    background-color: #fdfdfd;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+    padding: 18px;
+    margin: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Menu Items */
+.menu-item:hover {
+    background-color: #f1f3f4;
+    border-color: #dee2e6;
+}
+
+/* Featured Item Special Styling */
+.featured-item {
+    background-color: #fff3cd;
+    border-color: #ffc107;
+    border-width: 2px;
+}
+
+.featured-item:hover {
+    background-color: #ffeaa7;
+}
+
+/* Price Styling */
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.3em;
+    float: right;
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 1px solid #e74c3c;
+}
+
+/* Footer Styling */
+.cafe-footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.hours {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.contact {
+    margin: 0;
+    color: #bdc3c7;
+}
+
+/* Descendant Selector - paragraphs inside menu items */
+.menu-item p {
+    margin: 8px 0 12px 0;
+    color: #6c757d;
+    font-size: 0.95em;
+}
+
+/* Clear floats after price elements */
+.menu-item::after {
+    content: "";
+    display: table;
+    clear: both;
+}

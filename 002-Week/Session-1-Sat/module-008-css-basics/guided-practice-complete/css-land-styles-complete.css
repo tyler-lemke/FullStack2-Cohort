@@ -1,0 +1,136 @@
+/* ===========================================
+   CSS LAND - LEARN CSS FUNDAMENTALS
+   COMPLETE VERSION - All TODOs solved!
+   =========================================== */
+
+/* TODO 1: Style the body element - COMPLETED */
+body {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* ===========================================
+   TODO 2: COLOR PROPERTIES - COMPLETED
+   =========================================== */
+
+/* TODO 2a: Style #main-title ID - COMPLETED */
+#main-title {
+  color: blue;
+}
+
+/* TODO 2b: Style .tagline class - COMPLETED */
+.tagline {
+  color: gray;
+}
+
+/* TODO 2c: Style .red-text class - COMPLETED */
+.red-text {
+  color: red;
+}
+
+/* TODO 2d: Style .blue-background class - COMPLETED */
+.blue-background {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+/* TODO 2e: Style .fancy-colors class - COMPLETED */
+.fancy-colors {
+  color: green;
+  background-color: lightcyan;
+  padding: 8px;
+}
+
+/* ===========================================
+   TODO 3: BACKGROUND COLORS - COMPLETED
+   =========================================== */
+
+/* TODO 3a: Style .intro-section class - COMPLETED */
+.intro-section {
+  background-color: lightgray;
+  padding: 15px;
+}
+
+/* TODO 3b: Style .highlight-text class - COMPLETED */
+.highlight-text {
+  background-color: yellow;
+  padding: 5px;
+}
+
+/* TODO 3c: Style #unique-box ID - COMPLETED */
+#unique-box {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/* ===========================================
+   TODO 4: BORDER COLORS & PADDING - COMPLETED
+   =========================================== */
+
+/* TODO 4a: Style .padding-example class - COMPLETED */
+.padding-example {
+  border: 2px solid orange;
+  padding: 15px;
+}
+
+/* TODO 4b: Style .creative-box class - COMPLETED */
+.creative-box {
+  border: 2px dashed pink;
+  padding: 20px;
+}
+
+/* ===========================================
+   TODO 5: FOOTER & HEADINGS - COMPLETED
+   =========================================== */
+
+/* TODO 5a: Style .page-footer class - COMPLETED */
+.page-footer {
+  background-color: darkgray;
+  color: white;
+  padding: 25px;
+}
+
+/* TODO 5b: Style h2 elements - COMPLETED */
+h2 {
+  color: darkblue;
+  padding: 8px;
+}
+
+/* ===========================================
+   BONUS: ADDITIONAL STYLING - COMPLETED
+   =========================================== */
+
+/* Additional styling for classes that exist in HTML */
+.special-text {
+  color: darkred;
+  padding: 3px;
+}
+
+/* Extra styling for better presentation */
+.example-box {
+  margin: 10px 0;
+}
+
+.class-demo {
+  margin: 10px 0;
+}
+
+.color-demo {
+  margin: 15px 0;
+}
+
+.spacing-demo {
+  margin: 15px 0;
+}
+
+.parent-container {
+  margin: 15px 0;
+}
+
+.child-element {
+  margin-left: 20px;
+}
+
+.practice-section {
+  margin-top: 20px;
+}

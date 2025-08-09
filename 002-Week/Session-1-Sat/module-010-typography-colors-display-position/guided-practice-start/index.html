@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario's Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 
+    GUIDED PRACTICE TODOS - Complete these 15 tasks:
+    
+    TYPOGRAPHY/FONT CHANGES:
+    TODO 1: Set .title to font-family: 'Georgia', serif; font-size: 3rem; font-weight: bold
+    TODO 2: Make .tagline font-size: 1.5em and letter-spacing: 2px
+    TODO 3: Set .menu-item to font-size: 1.2rem and line-height: 1.5
+    TODO 4: Use font-size: 0.9rem for .price
+    
+    COLOR CHANGES:
+    TODO 5: Give body background-color: #2c3e50 (dark blue)
+    TODO 6: Set .title color to #e74c3c (red)
+    TODO 7: Make .pizza-box background-color: #f39c12 (orange) 
+    TODO 8: Add .order-btn:hover { background-color: #27ae60; } (green)
+    
+    DISPLAY PROPERTY CHANGES:
+    TODO 9: Change .nav-item from block to display: inline-block
+    TODO 10: Set .special-offer to display: none (hide it completely)
+    TODO 11: Make .pizza-box display: inline-block so they sit side by side
+    
+    POSITION PROPERTY CHANGES:
+    TODO 12: Position .logo fixed at top: 20px; right: 20px
+    TODO 13: Set .menu-container to position: relative for positioning context
+    TODO 14: Position .price absolute at bottom: 10px; right: 10px inside pizza boxes
+    
+    STRETCH ACTIVITIES:
+    TODO 15: Add position: sticky; top: 0 to header for sticky navigation
+    -->
+
+    <header>
+        <h1 class="title">Mario's Pizza</h1>
+        <p class="tagline">Authentic Italian Pizza</p>
+        <nav>
+            <span class="nav-item">Home</span>
+            <span class="nav-item">Menu</span>
+            <span class="nav-item">About</span>
+            <span class="nav-item">Contact</span>
+        </nav>
+    </header>
+
+    <div class="logo">LOGO</div>
+
+    <main>
+        <div class="special-offer">Limited Time: Buy 2 Get 1 Free!</div>
+        
+        <div class="menu-container">
+            <h2>Our Menu</h2>
+            
+            <div class="pizza-box">
+                <h3 class="menu-item">Margherita</h3>
+                <p>Fresh mozzarella, tomatoes, basil</p>
+                <span class="price">$12.99</span>
+            </div>
+
+            <div class="pizza-box">
+                <h3 class="menu-item">Pepperoni</h3>
+                <p>Classic pepperoni with cheese</p>
+                <span class="price">$14.99</span>
+            </div>
+
+            <div class="pizza-box">
+                <h3 class="menu-item">Vegetarian</h3>
+                <p>Bell peppers, mushrooms, onions</p>
+                <span class="price">$13.99</span>
+            </div>
+        </div>
+
+        <button class="order-btn">Order Now</button>
+    </main>
+
+    <footer>
+        <p>Call (555) 123-PIZZA</p>
+        <p>Serving the community since 1985</p>
+    </footer>
+</body>
+</html>

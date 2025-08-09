@@ -1,0 +1,111 @@
+/* Professional Business Card - Starting Styles */
+
+/* Basic page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Card container for centering */
+.card-container {
+    /* TODO: Add styles to center the card horizontally */
+}
+
+/* Main business card */
+.business-card {
+    background-color: white;
+    /* TODO: Add width (350px) */
+    /* TODO: Add box-sizing: border-box */
+    /* TODO: Add padding around entire card */
+    /* TODO: Add border */
+    /* TODO: Add border-radius for rounded corners */
+    /* TODO: Add margin for spacing */
+}
+
+/* Header section with name and title */
+.header-section {
+    text-align: center;
+    /* TODO: Add bottom margin or padding */
+    /* TODO: Add bottom border to separate from contact info */
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    /* TODO: Remove default margins */
+    /* TODO: Add bottom margin */
+}
+
+.title {
+    font-size: 16px;
+    color: #7f8c8d;
+    font-style: italic;
+    /* TODO: Remove default margins */
+}
+
+/* Contact information section */
+.contact-section {
+    /* TODO: Add top and bottom padding */
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+    /* TODO: Add margin between contact items */
+}
+
+.label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.value {
+    color: #2980b9;
+}
+
+/* Skills section */
+.skills-section {
+    text-align: center;
+    /* TODO: Add top padding or margin */
+    /* TODO: Add top border to separate from contact info */
+}
+
+.skills {
+    font-size: 14px;
+    color: #7f8c8d;
+    /* TODO: Remove default margins */
+}
+
+/* Instructions section (for learning purposes) */
+.instructions {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+}
+
+.instructions h2 {
+    color: #856404;
+    margin-top: 0;
+}
+
+.instructions h3 {
+    color: #856404;
+    margin-top: 20px;
+}
+
+.instructions ol, .instructions ul {
+    color: #856404;
+}
+
+.instructions li {
+    margin-bottom: 8px;
+}
+
+/* Remove this section when you're done practicing */

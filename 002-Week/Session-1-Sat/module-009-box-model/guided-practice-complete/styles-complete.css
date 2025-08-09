@@ -1,0 +1,168 @@
+/* Professional Business Card - Complete Solution */
+
+/* Basic page setup */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* Card container for centering */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+/* Main business card */
+.business-card {
+    background-color: white;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 2px solid #e1e8ed;
+    border-radius: 12px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for interactivity */
+.business-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-color: #3498db;
+}
+
+/* Header section with name and title */
+.header-section {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0 0 8px 0;
+}
+
+.title {
+    font-size: 16px;
+    color: #7f8c8d;
+    font-style: italic;
+    margin: 0;
+}
+
+/* Contact information section */
+.contact-section {
+    padding: 15px 0;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+.contact-item:last-child {
+    margin-bottom: 0;
+}
+
+.label {
+    font-weight: bold;
+    color: #34495e;
+}
+
+.value {
+    color: #3498db;
+    font-weight: 500;
+}
+
+/* Skills section */
+.skills-section {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 2px solid #ecf0f1;
+}
+
+.skills {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Demo information section */
+.demo-info {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+    border-left: 4px solid #28a745;
+}
+
+.demo-info h2 {
+    color: #155724;
+    margin-top: 0;
+}
+
+.demo-info h3 {
+    color: #155724;
+    margin-top: 20px;
+}
+
+.demo-info ul {
+    color: #155724;
+}
+
+.demo-info li {
+    margin-bottom: 8px;
+}
+
+.demo-info strong {
+    color: #0d4f1a;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+    
+    .business-card {
+        width: 100%;
+        max-width: 320px;
+        padding: 20px;
+        margin: 10px auto;
+    }
+    
+    .name {
+        font-size: 22px;
+    }
+    
+    .contact-item {
+        flex-direction: column;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .label {
+        font-size: 14px;
+    }
+    
+    .value {
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
